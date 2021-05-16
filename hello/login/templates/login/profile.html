@@ -1,0 +1,14 @@
+{% extends 'login/base.html' %}
+{% block main-content %}
+<div class="container">
+  <div class="row my-3">
+   <div class="col-sm-6 offset-sm-3">
+     <div class="shadow p-10">
+       <div class="text-center text-primary fw-bold">
+         <h1>Hello <span class="text-capitalize"> {{request.user}} </span> </h1>
+       </div>
+      </div>
+   </div>
+  </div>
+</div>
+{% endblock main-content %}
